@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Job Application Form</title>
+</head>
+<body bgcolor="blue">
+<marquee onmouseover="this.stop()" onmouseout="this.start()" style="color:red"><h2>WELCOME TO FRESHERS WORLD!!!</h2></marquee>
+<table border="1" style="width:80%">
+<tr>
+<td colspan="2"><center><h3>Registration Form</h3></center></td>
+</tr>
+<tr>
+<form>
+<td>Name</td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td>Age</td>
+<td><select name="age" value="Select">
+<option value="1">1-18</option>
+<option value="2">19-60</option>
+<option value="3">61&above</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td>Re-enter Password</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td rowspan="4">Select your security question</td>
+<td><input type="radio" name="security">What is your pet name?</td>
+</tr>
+<tr>
+<td><input type="radio" name="security">Who is your best friend</td>
+</tr>
+<tr>
+<td><input type="radio" name="security">What is your favourite color</td>
+</tr>
+<tr>
+<td><input type="radio" name="security">What is your favourite teacher</td>
+</tr>
+<tr>
+<td>Answer of security question</td>
+</td>
+<td><input type="text" name="security_name"></td>
+</tr>
+<tr>
+<td>Email id</td>
+</td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr>
+<td>Languages Known</td>
+<td><input type="checkbox" name="malayalam"><label>Malayalam</label>
+    <input type="checkbox" name="english"><label>English</label>
+    <input type="checkbox" name="hindi"><label>Hindi</label>
+</td>
+</tr>
+<tr rowspan="2">
+<td>Phone number</td>
+<td><table border="2"><tr><th>Home</th><th>Office</th></tr>
+           <tr><td><input type="text" name="home"></td><td><input type="text" name="office"></td></tr>
+     </table>
+</td>
+</tr>
+<tr>
+<td>Upload CV</td>
+<td><input type="file" name="cv"></td>
+</tr>
+<tr>
+<td><input type="reset" value="Reset"></td>
+<td><input type="submit" value="Submit"></td>
+</tr>
+</form>
+</table>
+</body>
+</html>
